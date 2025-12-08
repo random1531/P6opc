@@ -1,0 +1,25 @@
+.left{
+width: 44%;
+height: 100%;
+background-color: #F2F3FF;
+backdrop-filter: blur(74px);
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.right{
+    width: 56%;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    height: 100%;
+}
+
+.logologin{
+position: absolute;
+top: 40px;
+left: 40px;
+}

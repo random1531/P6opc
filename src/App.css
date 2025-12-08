@@ -1,0 +1,10 @@
+#root {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
