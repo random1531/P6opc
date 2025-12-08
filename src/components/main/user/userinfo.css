@@ -1,0 +1,15 @@
+.userinfocontainer{
+    width: 1052px;
+    height: 181px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.38%, #FFFFFF 100%);
+    display: flex;
+    align-items: center;
+}
+
+.profilpic{
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,17 +1,19 @@
 import './App.css'
 import { Outlet } from 'react-router'
+import Header from "./components/header/header"
+import { DataProvider } from "./actions/dataProvider"
 
 function App() {
-  const connexion = localStorage.getItem("user")
 
-  if(!connexion){
-   
-  }
+
 
   return (
-    <>
-        <Outlet/>
-    </>
+    <main>
+      <Header />
+      <DataProvider>
+        <Outlet />
+      </DataProvider>
+    </main>
   )
 }
 

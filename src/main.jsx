@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router/dom";
 import PrivateRoute from "./actions/PrivateRoute.jsx"
 import App from './App.jsx'
 import Login from './page/login.jsx'
+import Dashboard from "./page/dashboard.jsx"
 import './index.css'
 
 const router = createBrowserRouter([
@@ -14,7 +15,10 @@ const router = createBrowserRouter([
       <PrivateRoute>
       <App />
       </PrivateRoute>
-    )
+    ),
+    children:[
+      {path:"/dashboard",element: <Dashboard/>}
+    ]
   },
   {
     path:"/login",

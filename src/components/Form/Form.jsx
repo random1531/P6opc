@@ -15,7 +15,7 @@ function Form() {
         const data = await connexion({ username, password });
         setMessage(data.message)
         if(data.status === 200){
-           redirect("/")
+           redirect("/dashboard")
         }
     };
 
