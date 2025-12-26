@@ -7,5 +7,4 @@ export default function PrivateRoute({children}){
         return <Navigate to="/login"/>
     }
     return children
-
 };

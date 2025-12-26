@@ -1,0 +1,8 @@
+.cardContainer{
+    width: 278px;
+    height: 103px;
+    background-color: #0B23F4;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}

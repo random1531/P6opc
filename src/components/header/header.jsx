@@ -11,6 +11,12 @@ export default function header(){
         navigate("/login")
     }
 
+    const NavProfil =()=>{
+        navigate("/profile")
+    }
+    const Navdashboar =()=>{
+        navigate("/dashboard")
+    }
     return(
 
         <header>
@@ -18,8 +24,8 @@ export default function header(){
         <nav className="navigationbar">
        
        <div className="pagination">
-            <p>Dashboard</p>
-            <p>Mon profil</p>
+            <p onClick={Navdashboar}>Dashboard</p>
+            <p onClick={NavProfil}>Mon profil</p>
        </div>
             <p onClick={diconect} className="disconnect">Se déconnecter</p>
        

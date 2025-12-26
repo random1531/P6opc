@@ -1,0 +1,11 @@
+.test{
+    border-radius: 30px;
+}
+
+.monthchart{
+    width: 445px;
+}
+.changedate{
+    display: flex;
+    gap: 10px;
+}
