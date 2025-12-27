@@ -3,8 +3,8 @@ import "./card.css"
 export default function card({Title,d}){
     return(
         <div className="cardContainer">
-            <p>{Title}</p>
-            <p>{d}</p>
+            <p className="cardtitle">{Title}</p>
+            <p className="carddata">{d}</p>
         </div>
     )
 }

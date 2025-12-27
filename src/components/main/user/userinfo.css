@@ -1,15 +1,46 @@
-.userinfocontainer{
-    width: 1052px;
-    height: 181px;
+.userinfocontainer {
+    width: calc(508px - 40px);
+    height: 165px;
     border-radius: 20px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.38%, #FFFFFF 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.38%, #ffffff 100%);
     display: flex;
     align-items: center;
+    gap: 30px;
+    box-shadow: 0px 4px 84px -40px #9da7fb66;
+    background: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.profilpic{
+.profilpic {
     width: 107px;
     height: 107px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.nameProfile {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.longerCreate {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.leftUserHead {
 }

@@ -5,7 +5,7 @@ import { datates } from "../../../../mock"
 import { useData } from "../../../../actions/dataProvider"; 
 export default function graphCombined() {
    const { userData, userActivity } = useData();
-console.log(userActivity)
+
     return (
         <>
             
